@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    front-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #A9B8A8, #2A2625 );
+    background-attachment: fixed;
+}
+/*encabezado*/
+.encabezado{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 12px 40px;
+    background-color: #231f20;
+    color: white;
+}
+.logo{
+    font-family: 'Great Vibes', cursive;
+    font-size: 44px;
+    font-weight: normal;
+    white-space: nowrap;
+}
+
+.buscador{
+    flex:1;
+    max-width: 520px;
+    height: 40px;
+    padding: 0 15px;
+    border: none;
+    background-color: #e6e6e6;
+    font-size: 16px;
+}
+
+.acciones{
+    display: flex;
+    gap: 40px;
+}
