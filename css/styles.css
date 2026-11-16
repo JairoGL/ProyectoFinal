@@ -40,3 +40,21 @@ body{
     display: flex;
     gap: 40px;
 }
+.acciones a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/*menu de navegacion*/
+.menu{
+    display: flex;
+    gap: 20px;
+    padding: 0 40px;
+    background: #e0e0e0;
+}
+.menu a:hover{
+    .contenido{
+        padding: 20px 40px;
+    }
+}
