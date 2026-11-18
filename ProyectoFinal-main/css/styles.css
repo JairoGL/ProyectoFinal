@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background: linear-gradient(to bottom, #a9b8a8, #2a2625);
+  background-attachment: fixed;
+}
+
+/*Encabezado*/
+.encabezado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  padding: 12px 40px;
+  background: #231f20;
+  color: white;
+}
+
+.logo {
+  font-family: 'Great Vibes', cursive;
+  font-size: 44px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.buscador {
+  flex: 1;
+  max-width: 520px;
+  height: 40px;
+  padding: 0 15px;
+  border: none;
+  background: #e6e6e6;
+  font-size: 16px;
+}
+
+.acciones {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.acciones a {
+  display: flex;
+}
+
+.icono-carrito {
+  width: 50px;
+  height: auto;
+}
+
+.boton-perfil {
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  background: white;
+}
+
+.icono-perfil {
+  width: 30px;
+  height: 30px;
+}
+
+/*Barra de navegacion*/
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  background: #e0e0e0;
+}
+
+.menu-izq,
+.menu-der {
+  display: flex;
+  gap: 10px;
+}
+
+.menu a {
+  color: #222;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 14px 20px;
+}
+
+.menu a:hover {
+  background: #cfcfcf;
+}
+
+/*Contenido Menu*/
+.principal {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+}
+
+.texto {
+  flex: 1;
+  color: #f2f2f2;
+  font-style: italic;
+  font-size: 22px;
+  line-height: 1.6;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.texto p {
+  margin-bottom: 6px;
+}
+
+.texto ul {
+  margin: 6px 0 18px 30px;
+}
+
+.texto li {
+  margin-bottom: 6px;
+}
+
+.frase-final {
+  margin-top: 30px;
+  font-style: normal;
+  font-size: 16px;
+  text-align: center;
+}
+
+/*Imagen del vinilo*/
+.imagen-vinilo {
+  width: 320px;
+  height: 300px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+/*logo de usuario y carrito*/
+@media (max-width: 800px) {
+  .principal {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .imagen-vinilo {
+    width: 100%;
+  }
+}
