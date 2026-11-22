@@ -19,3 +19,9 @@ En el contenido puse el texto de bienvenida sobre los vinilos con la lista de lo
 Tenía un error en el index.html del cual, la pantalla salia desconfigurada
 Todo lo hice con HTML y CSS (usé flexbox para acomodar las partes) y la fuente Great Vibes de Google Fonts para el logo.
 Me falta hacer las páginas de Novedades, Listas, Ofertas y Géneros, y que funcionen el buscador, el carrito y el perfil.
+
+21/11/2026
+En estos dias de avance, se cambio  el apartado de opciones, se quito la opcion de generos musicales debido a que se deberia crear muchas mas carpetas, pero en este caso con Java Script, cosa que aun no se esta aplicando en esta parte inicial como es diseño web, dicho esto, se puede aplicar un poco de java en el apartado del carrito
+Hubo un cambio de planes en vez de redireccionar a otras paginas, lo que se hara es un hacerlo todo en el mismo menu principal, lo que incluimos para esta parte es <section> y <id> para todas las ventanas que salen en la pagina web como ser: listas, ofertas, novedades y el apartado de nuestras redes,  la seccion de noticias nos redirecciona a otra pagina en la cual se habla de nuevos lanzamientos de albums y todo  tipo de apartados referido a la musica
+Se agrando la pagina y que el degradado que estaba en la panatalla que estaba pequeña ahora esta mas grande y que cubre todos los apartados que se aplicara en la pagina web
+Se añadio el apartado de Copyright para la pagina web con un  <p>&copy
