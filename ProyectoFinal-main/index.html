@@ -3,14 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Tienda</title>
+  <title>Vinnify</title>
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-  <header class="encabezado">
-    <h1 class="logo">Mi Tienda</h1>
+  <header class="encabezado" id="inicio">
+    <h1 class="logo">
+      <a href="#inicio">Vinnify</a>
+    </h1>
     <input class="buscador" type="text" placeholder="Buscar">
 
     <div class="acciones">
@@ -25,36 +27,70 @@
 
   <nav class="menu">
     <div class="menu-izq">
-      <a href="#">Géneros Musicales</a>
-      <a href="#">Listas</a>
-      <a href="#">Ofertas</a>
-      <a href="#">Novedades</a>
+      <a href="#inicio">Inicio</a>
+      <a href="#listas">Listas</a>
+      <a href="#ofertas">Ofertas</a>
+      <a href="#novedades">Novedades</a>
     </div>
     <div class="menu-der">
-      <a href="#">Nuestras Redes↗</a>
+      <a href="#redes">Nuestras Redes ↗</a>
       <a href="https://www.lahiguera.net/musicalia/novedades.php" target="_blank" rel="noopener noreferrer">Noticias ↗</a>
     </div>
   </nav>
 
-  <main class="principal">
+  <!-- BIENVENIDA -->
+  <div class="seccion">
+    <main class="principal">
 
-    <section class="texto">
-      <p>🎶 ¡Dale play a la auténtica experiencia analógica! 🎶</p>
-      <p>¿Cansado de escuchar música comprimida?</p>
-      <p>Redescubre tus álbumes favoritos con la calidez,</p>
-      <p>el arte y el sonido único que solo un disco de vinilo puede darte.</p>
-      <p>✨ En nuestra tienda encontrarás:</p>
-      <ul>
-        <li>Clásicos indispensables y novedades del momento.</li>
-        <li>Ediciones limitadas, de colección y vinilos de color.</li>
-        <li>Envíos 100 % seguros y protegidos para que tus discos lleguen impecables a tu puerta.</li>
-      </ul>
-      <p class="frase-final">Descubre, compra y guarda tus álbumes favoritos en un solo lugar.</p>
-    </section>
+      <section class="texto">
+        <p>¡Dale play a la auténtica experiencia analógica!</p>
+        <p>¿Cansado de escuchar música comprimida?</p>
+        <p>Redescubre tus álbumes favoritos con la calidez,</p>
+        <p>el arte y el sonido único que solo un disco de vinilo puede darte.</p>
+        <p>En nuestra tienda encontrarás:</p>
+        <ul>
+          <li>Clásicos indispensables y novedades del momento.</li>
+          <li>Ediciones limitadas, de colección y vinilos de color.</li>
+          <li>Envíos 100 % seguros y protegidos para que tus discos lleguen impecables a tu puerta.</li>
+        </ul>
+        <p class="frase-final">Descubre, compra y guarda tus álbumes favoritos en un solo lugar.</p>
+      </section>
 
-    <img class="imagen-vinilo" src="imag/logomenu.png" alt="Disco de vinilo">
+      <img class="imagen-vinilo" src="imag/logomenu.png" alt="Disco de vinilo">
 
-  </main>
+    </main>
+  </div>
 
+  <!-- LISTAS -->
+  <section class="seccion pagina-contenido" id="listas">
+    <h2 class="titulo-pagina">Listas</h2>
+    <!--Seccion para incluir todos los vinilos disponibles -->
+  </section>
+
+  <!-- OFERTAS -->
+  <section class="seccion pagina-contenido" id="ofertas">
+    <h2 class="titulo-pagina">Ofertas</h2>
+    <!-- Seccion para las ofertas o incluir contenido con descuento -->
+  </section>
+
+  <!-- NOVEDADES -->
+  <section class="seccion pagina-contenido" id="novedades">
+    <h2 class="titulo-pagina">Novedades</h2>
+    <!--Seccion Novedades -->
+  </section>
+
+  <!-- NUESTRAS REDES -->
+  <section class="seccion pagina-contenido" id="redes">
+    <h2 class="titulo-pagina">Nuestras Redes</h2>
+    <!-- Seccion para incluir las redes sociales-->
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Vinnify. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Botón flotante para volver arriba -->
+  <a href="#inicio" class="subir" aria-label="Volver arriba">↑</a>
+  
 </body>
 </html>
