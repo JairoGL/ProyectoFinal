@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vinnify</title>
+  <title>Vinnify.bo</title>
   <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -13,13 +13,15 @@
     <h1 class="logo">
       <a href="#inicio">Vinnify</a>
     </h1>
-    <input class="buscador" type="text" placeholder="Buscar">
-
+   <form class="buscador-form" id="form-buscar">
+  <input class="buscador" id="buscador" type="text" placeholder="Buscar" autocomplete="off">
+  <button type="submit" class="btn-buscar">Buscar</button>
+</form>
     <div class="acciones">
-      <a href="#">
+      <a href="carrito-perfil/carrito.html">
         <img class="icono-carrito" src="imag/carrito.png" alt="Carrito">
       </a>
-      <a href="#" class="boton-perfil">
+      <a href="carrito-perfil/perfil.html" class="boton-perfil">
         <img class="icono-perfil" src="imag/perfil.png" alt="Perfil">
       </a>
     </div>
@@ -64,33 +66,334 @@
   <!-- LISTAS -->
   <section class="seccion pagina-contenido" id="listas">
     <h2 class="titulo-pagina">Listas</h2>
-    <!--Seccion para incluir todos los vinilos disponibles -->
+    <h3>Disponibles del momento</h3>
+
+    <div class="catalogo-vinilos">
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Atom Heart Mother</h3>
+        <a href="carrito-perfil/carrito.html#atom-heart-mother">
+          <img src="albums/atom-heart-mother.jpg" alt="Atom Heart Mother - Pink Floyd">
+        </a>
+        <a href="carrito-perfil/carrito.html#atom-heart-mother" class="btn-adquirir">3.200 Bs</a>
+      </article>
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Un Verano Sin Ti</h3>
+        <a href="carrito-perfil/carrito.html#un-verano-sin-ti">
+          <img src="albums/un-verano-sin-ti.jpg" alt="Un Verano Sin Ti - Bad Bunny">
+        </a>
+        <a href="carrito-perfil/carrito.html#un-verano-sin-ti" class="btn-adquirir">5.200 Bs</a>
+      </article>
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Red Moon in Venus</h3>
+        <a href="carrito-perfil/carrito.html#red-moon-in-venus">
+          <img src="albums/red moon in venus.jpg" alt="Red Moon in Venus - Kali Uchis">
+        </a>
+        <a href="carrito-perfil/carrito.html#red-moon-in-venus" class="btn-adquirir">3.900 Bs</a>
+      </article>
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Debi Tirar Mas Fotos</h3>
+        <a href="carrito-perfil/carrito.html#debi-tirar-mas-fotos">
+          <img src="albums/debi-tirar-mas-fotos.jpg" alt="Debí Tirar Más Fotos - Bad Bunny">
+        </a>
+        <a href="carrito-perfil/carrito.html#debi-tirar-mas-fotos" class="btn-adquirir">7.600 Bs</a>
+      </article>
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Bleach - Nirvana</h3>
+        <a href="carrito-perfil/carrito.html#bleach-Nirvana">
+          <img src="albums/Bleach.jpg" alt="bleach - Nirvana">
+        </a>
+        <a href="carrito-perfil/carrito.html#bleach-Nirvana" class="btn-adquirir">2.200 Bs</a>
+      </article>
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Isues - Korn</h3>
+        <a href="carrito-perfil/carrito.html#isues-korn">
+          <img src="albums/issues.jpg" alt="Isues - Korn">
+        </a>
+        <a href="carrito-perfil/carrito.html#isues-korn" class="btn-adquirir">2.320 Bs</a>
+      </article>
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Norma - Mon Laferte</h3>
+        <a href="carrito-perfil/carrito.html#norma-mon-laferte">
+          <img src="albums/norma.jpg" alt="Norma - Mon Laferte">
+        </a>
+        <a href="carrito-perfil/carrito.html#norma-mon-laferte" class="btn-adquirir">3.250 Bs</a>
+      </article>
+
+       <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Fine Line - Harry Styles</h3>
+        <a href="carrito-perfil/carrito.html#fine-line-harry-styles">
+          <img src="albums/fine-line.jpg" alt="Fine Line - Harry Styles">
+        </a>
+        <a href="carrito-perfil/carrito.html#fine-line-harry-styles" class="btn-adquirir">2.259 Bs</a>
+      </article>
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Ultra Sodade - Kevin Carl</h3>
+        <a href="carrito-perfil/carrito.html#ultra-sodade-kevin-carl">
+          <img src="albums/ultra-sodade.jpg" alt="Ultra Sodade - Kevin Carl">
+        </a>
+        <a href="carrito-perfil/carrito.html#ultra-sodade-kevin-carl" class="btn-adquirir">2.259 Bs</a>
+      </article>
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Faraon Love Shady</h3>
+        <a href="carrito-perfil/carrito.html#faraon-love-shady">
+          <img src="albums/faraon.jpg" alt="Faraon Love Shady">
+        </a>
+        <a href="carrito-perfil/carrito.html#faraon-love-shady" class="btn-adquirir">Gratis </a>
+      </article>
+
+        <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Alabanza - Insulini</h3>
+        <a href="carrito-perfil/carrito.html#alabanza-insulini">
+          <img src="albums/insulini.jpg" alt="Alabanza - Insulini">
+        </a>
+        <a href="carrito-perfil/carrito.html#alabanza-insulini" class="btn-adquirir">13 Bs</a>
+      </article>
+
+        <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Las Que No Tienen Papa-Dani FLow</h3>
+        <a href="carrito-perfil/carrito.html#dani">
+          <img src="albums/dani.jpg.jpeg" alt="Dani Flow">
+        </a>
+        <a href="carrito-perfil/carrito.html#dani" class="btn-adquirir">1 Bs</a>
+      </article>
+
+       <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Harry's House - Harry Styles</h3>
+        <a href="carrito-perfil/carrito.html#harryhouse">
+          <img src="albums/Harry´s House.jpg" alt="Harry's House">
+        </a>
+        <a href="carrito-perfil/carrito.html#harryhouse" class="btn-adquirir">4.500 Bs</a>
+      </article>
+
+        <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">De Piel Negra - Alejandra Guzman</h3>
+        <a href="carrito-perfil/carrito.html#depielnegra">
+          <img src="albums/de-piel-negra.jpg" alt="De Piel Negra - Alejandra Guzman">
+        </a>
+        <a href="carrito-perfil/carrito.html#depielnegra" class="btn-adquirir">3.300 Bs</a>
+      </article>
+
+       <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Bewitched - Laufey</h3>
+        <a href="carrito-perfil/carrito.html#bewitched">
+          <img src="albums/bewitched.jpg" alt="Bewitched - Laufey">
+        </a>
+        <a href="carrito-perfil/carrito.html#bewitched" class="btn-adquirir">5.600 Bs</a>
+      </article>
+
+       <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Yours Truly - Ariana Grande </h3>
+        <a href="carrito-perfil/carrito.html#yourstruly">
+          <img src="albums/yours-truly.jpg" alt="Yours Truly - Ariana Grande">
+        </a>
+        <a href="carrito-perfil/carrito.html#yourstruly" class="btn-adquirir">5.620 Bs</a>
+      </article>
+
+       <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Desilucion - Nico Play</h3>
+        <a href="carrito-perfil/carrito.html#desilucion">
+          <img src="albums/desilucion.jpg" alt="Desilucion - Nico Play">
+        </a>
+        <a href="carrito-perfil/carrito.html#desilucion" class="btn-adquirir">1.750 Bs</a>
+      </article>
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Porfiado - El Cuarteto de Nos</h3>
+        <a href="carrito-perfil/carrito.html#porfiado">
+          <img src="albums/porfiado.jpg" alt="Porfiado - El Cuarteto de Nos">
+        </a>
+        <a href="carrito-perfil/carrito.html#porfiado" class="btn-adquirir">7.750 Bs</a>
+      </article>
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Thriller - Michael Jackson</h3>
+        <a href="carrito-perfil/carrito.html#thriller">
+          <img src="albums/thriller.jpg" alt="Thriller - Michael Jackson">
+        </a>
+        <a href="carrito-perfil/carrito.html#thriller" class="btn-adquirir">5.750 Bs</a>
+      </article>
+
+    </div>
   </section>
 
   <!-- OFERTAS -->
   <section class="seccion pagina-contenido" id="ofertas">
     <h2 class="titulo-pagina">Ofertas</h2>
-    <!-- Seccion para las ofertas o incluir contenido con descuento -->
+
+    <div class="catalogo-vinilos">
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Red Moon in Venus</h3>
+        <a href="carrito-perfil/carrito.html#red-moon-in-venus-oferta">
+          <img src="albums/red moon in venus.jpg" alt="Red Moon in Venus - Kali Uchis">
+        </a>
+        <p class="descuento">Descuento del 20%</p>
+        <a href="carrito-perfil/carrito.html#red-moon-in-venus-oferta" class="btn-adquirir">1.300 Bs</a>
+      </article>
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Un Verano Sin Ti</h3>
+        <a href="carrito-perfil/carrito.html#un-verano-sin-ti-oferta">
+          <img src="albums/un-verano-sin-ti.jpg" alt="Un Verano Sin Ti - Bad Bunny">
+        </a>
+        <p class="descuento">Descuento del 25%</p>
+        <a href="carrito-perfil/carrito.html#un-verano-sin-ti-oferta" class="btn-adquirir">2.200 Bs</a>
+      </article>
+
+       <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Xscape - Michael Jackson</h3>
+        <a href="carrito-perfil/carrito.html#xscape">
+          <img src="albums/xscape.jpg" alt="Xscape - Michael Jackson">
+        </a>
+        <p class="descuento">Descuento del 5%</p>
+        <a href="carrito-perfil/carrito.html#xscape" class="btn-adquirir">5.400 Bs</a>
+      </article>
+      
+       <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">111 Milo J</h3>
+        <a href="carrito-perfil/carrito.html#111">
+          <img src="albums/111.jpg" alt="111 - Milo J">
+        </a>
+        <p class="descuento">Descuento del 15%</p>
+        <a href="carrito-perfil/carrito.html#111" class="btn-adquirir">5.150 Bs</a>
+      </article>
+
+       <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">El Comienzo - Grupo Frontera</h3>
+        <a href="carrito-perfil/carrito.html#elcomienzo">
+          <img src="albums/el-comienzo.jpg" alt="El Comienzo - Grupo Frontera">
+        </a>
+        <p class="descuento">Descuento del 7%</p>
+        <a href="carrito-perfil/carrito.html#elcomienzo" class="btn-adquirir">2.320 Bs</a>
+      </article>
+
+       <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Giros - Fito Paez</h3>
+        <a href="carrito-perfil/carrito.html#giros">
+          <img src="albums/giros.jpg" alt="Giros - Fito Paez">
+        </a>
+        <p class="descuento">Descuento del 37%</p>
+        <a href="carrito-perfil/carrito.html#giros" class="btn-adquirir">1.520 Bs</a>
+      </article>
+
+    </div>
   </section>
 
   <!-- NOVEDADES -->
   <section class="seccion pagina-contenido" id="novedades">
     <h2 class="titulo-pagina">Novedades</h2>
-    <!--Seccion Novedades -->
+    <h3>Últimos lanzamientos de este año</h3>
+
+    <div class="catalogo-vinilos">
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">La Vida Era Mas Corta - Milo J</h3>
+        <a href="carrito-perfil/carrito.html#miloj">
+          <img src="albums/La-vida-era-mas-corta.jpg" alt="La Vida Era Mas Corta - Milo J">
+        </a>
+        <a href="carrito-perfil/carrito.html#miloj" class="btn-adquirir">7.800 Bs</a>
+      </article>
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Femme Fatale - Mon Laferte</h3>
+        <a href="carrito-perfil/carrito.html#feme-fatale">
+          <img src="albums/femme-fatale.jpg" alt="Femme Fatale - Mon Laferte">
+        </a>
+        <a href="carrito-perfil/carrito.html#feme-fatale" class="btn-adquirir">6.900 Bs</a>
+      </article>
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo</h3>
+        <a href="carrito-perfil/carrito.html#oliviaR">
+          <img src="albums/you seem pretty.jpg" alt="You Seem Pretty Sad for a Girl So in Love - Olivia Rodrigo">
+        </a>
+        <a href="carrito-perfil/carrito.html#oliviaR" class="btn-adquirir">5.200 Bs</a>
+      </article>
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Arirang - BTS</h3>
+        <a href="carrito-perfil/carrito.html#arirang">
+          <img src="albums/arirang.jpg" alt="Arirang - BTS">
+        </a>
+        <a href="carrito-perfil/carrito.html#arirang" class="btn-adquirir">5.560 Bs</a>
+      </article>
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Kiss All the Time - Harry Styles</h3>
+        <a href="carrito-perfil/carrito.html#kissall">
+          <img src="albums/kiss-all-the-time.jpg" alt="Kiss All the Time - Harry Styles">
+        </a>
+        <a href="carrito-perfil/carrito.html#kissall" class="btn-adquirir">3.760 Bs</a>
+      </article>
+
+      <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">The Romantic - Bruno Mars</h3>
+        <a href="carrito-perfil/carrito.html#theromantic">
+          <img src="albums/the-romantic.jpg" alt="The Romantic - Bruno Mars">
+        </a>
+        <a href="carrito-perfil/carrito.html#theromantic" class="btn-adquirir">9.800 Bs</a>
+      </article>
+
+       <article class="tarjeta-vinilo">
+        <h3 class="titulo-album">Iceman - Drake</h3>
+        <a href="carrito-perfil/carrito.html#iceman">
+          <img src="albums/iceman.jpg" alt="Iceman - Drake">
+        </a>
+        <a href="carrito-perfil/carrito.html#iceman" class="btn-adquirir">8.200 Bs</a>
+      </article>
+
+    </div>
   </section>
 
   <!-- NUESTRAS REDES -->
   <section class="seccion pagina-contenido" id="redes">
     <h2 class="titulo-pagina">Nuestras Redes</h2>
-    <!-- Seccion para incluir las redes sociales-->
+
+    <div class="redes-lista">
+
+      <a class="red" href="https://www.facebook.com/jairo.terrazaslopez.3" target="_blank" rel="noopener noreferrer">
+        <img src="imag/logofacebook.png" alt="Facebook">
+        <span>@Vinnify.bo ↗</span>
+      </a>
+
+      <a class="red" href="https://www.instagram.com/vinnify.bo/" target="_blank" rel="noopener noreferrer">
+        <img src="imag/logoinstagram.png" alt="Instagram">
+        <span>@Vinnify.bo ↗</span>
+      </a>
+
+      <a class="red" href="https://www.tiktok.com/@vinnify.bo" target="_blank" rel="noopener noreferrer">
+        <img src="imag/logotiktok.png" alt="TikTok">
+        <span>@Vinnify.bo_tt ↗</span>
+      </a>
+
+      <a class="red" href="https://maps.app.goo.gl/Rb78LyDTRFEaDX7P7" target="_blank" rel="noopener noreferrer">
+        <img src="imag/logogooglemaps.png" alt="Ubicación">
+        <span>Nuestra Ubicacion ↗</span>
+      </a>
+
+      <a class="red" href="https://wa.me/qr/DS5F4EABQIYEK1?s=v" target="_blank" rel="noopener noreferrer">
+        <img src="imag/logowhatsapp.png" alt="Whatsapp">
+        <span>Nuestros Contactos ↗</span>
+      </a>
+
+    </div>
   </section>
 
+  <!-- Copyright -->
   <footer>
     <p>&copy; 2026 Vinnify. Todos los derechos reservados.</p>
   </footer>
 
-  <!-- Botón flotante para volver arriba -->
+  <!-- Botón flotante para volver al inicio -->
   <a href="#inicio" class="subir" aria-label="Volver arriba">↑</a>
-  
 </body>
 </html>

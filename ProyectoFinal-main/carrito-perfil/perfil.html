@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Perfil - Vinnify</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+  <main class="perfil">
+
+    <!-- Columna izquierda -->
+    <aside class="perfil-lateral">
+      <div class="perfil-foto">
+        <img src="../imag/perfil.png" alt="Foto de perfil">
+      </div>
+      <div class="perfil-opciones">
+        <a href="#informacion" class="perfil-iniciar">Iniciar Sesión</a>
+        <a href="#biblioteca">Mis Pedidos</a>
+        <a href="../index.html" class="perfil-chico">← Volver a la tienda</a>
+      </div>
+    </aside>
+
+    <!-- Columna derecha: se ve un panel a la vez -->
+    <section class="perfil-principal">
+
+      <!-- panel de informacion -->
+      <div class="panel panel-informacion" id="informacion">
+        <h2 class="perfil-bienvenida">Bienvenido, Usuario</h2>
+
+        <form class="perfil-formulario" action="#" method="post">
+          <h3>Información Personal</h3>
+
+          <div class="campos">
+            <label>Nombre de usuario:
+              <input type="text" name="usuario">
+            </label>
+
+            <label>Edad:
+              <input type="number" name="edad" min="0">
+            </label>
+
+            <label>Correo Electrónico:
+              <input type="email" name="correo">
+            </label>
+
+            <label>Teléfono:
+              <input type="tel" name="telefono">
+            </label>
+
+            <label>Contraseña:
+              <input type="password" name="contrasena">
+            </label>
+
+            <label>Dirección:
+              <input type="text" name="direccion">
+            </label>
+          </div>
+
+          <button type="submit" class="btn-guardar">Guardar</button>
+        </form>
+      </div>
+
+      <!-- panel de mis pedidos -->
+      <div class="panel panel-biblioteca" id="biblioteca">
+        <h2 class="perfil-bienvenida">Mis Pedidos</h2>
+
+        <div class="biblioteca-lista">
+
+          <!-- album comprado -->
+          <article class="pedido">
+            <img src="../albums/atom-heart-mother.jpg" alt="Atom Heart Mother">
+            <h3>Atom Heart Mother</h3>
+            <p>Estado: Comprado</p>
+            <p>Fecha: 23/11/2026</p>
+          </article>
+
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Vinnify. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
