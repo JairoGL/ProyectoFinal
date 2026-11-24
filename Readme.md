@@ -25,3 +25,10 @@ En estos dias de avance, se cambio  el apartado de opciones, se quito la opcion 
 Hubo un cambio de planes en vez de redireccionar a otras paginas, lo que se hara es un hacerlo todo en el mismo menu principal, lo que incluimos para esta parte es <section> y <id> para todas las ventanas que salen en la pagina web como ser: listas, ofertas, novedades y el apartado de nuestras redes,  la seccion de noticias nos redirecciona a otra pagina en la cual se habla de nuevos lanzamientos de albums y todo  tipo de apartados referido a la musica
 Se agrando la pagina y que el degradado que estaba en la panatalla que estaba pequeña ahora esta mas grande y que cubre todos los apartados que se aplicara en la pagina web
 Se añadio el apartado de Copyright para la pagina web con un  <p>&copy
+
+24//11/2026
+
+finalizacion del proyecto, para esta parte se añadio una cantidad importante de albums tanto en listas como en novedades y en ofertas, se añadio el apartado de perfil y carrito
+En el apartado de perfil encontraremos una encuesta personal para el usuario, tambien se añadio el apartado de biblioteca en la cual se encontraran los albums adquiridos, para agregar un album se debe hacer manualmente desde el apartado de perfil.html debido a que no se sabe al momento el uso adecuado de script para estos problemas, cosa que se hara en futuras clases y materias
+el apartado de carrito añade igual manualmente los albums al que le demos adquirir y despues de presionar en el mismo, este desaparecera
+tambien se agrego el boton para volver a la pantalla inicial
